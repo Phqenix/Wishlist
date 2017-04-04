@@ -1,0 +1,120 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+#welcome {
+  font-size: 43px;
+  color: #444;
+}
+header .row {
+    display: flex;
+    align-items:center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+  color: #444;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+
+}
+header nav a {
+  padding: 20px;
+  color: #444;
+  font-size: 17px;
+
+}
+header nav a:hover {
+  background-color: #586F6B;
+  text-decoration: none;
+  color: #FFF;
+
+}
+header {
+  background-color: #7F9183;
+}
+.jumbotron {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+  height: 500px;
+  background-image: url(https://wallpaperscraft.com/image/pen_notebook_spiral_113957_3840x2160.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron h2 {
+  font-size: 50px;
+  font-weight: 700;
+  margin: 0;
+  color: #444;
+  padding-bottom: 25px;
+}
+
+.jumbotron h3 {
+  margin: 0 0 20px;
+  color: #fff;
+}
+#description {
+  background: #B8B8AA;
+  color: #0;
+  width: 600px;
+  margin: auto;
+  padding: 25px;
+  border-radius: 25px;
+}
+}
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+#content {
+  display: block;
+  text-align: center;
+  margin-top: -30px;
+  padding-bottom: 30px;
+
+}
+#content figure {
+  padding: 25px;
+}
+#footerr ul {
+  list-style: none;
+  display: inline;
+}
+#footerr .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+#footerr li img {
+  width: 18px;
+  height: 18px;
+  float: right;
+  color: #000;
+}
+#footerr {
+  font-size: 12px;
+  padding: 20px 0;
+  height: 60px;
+  background-color: #CFC0BD;
+
+
+}
+#footerr p {
+  float: left;
+  vertical-align:center;
+}
+.btn.btn-primary {
+  background: #7F9183;
+  color: #444;
+}
+.btn.btn-primary:visited{
+  background: #7F9183;
+  color: #444;
+}
+.btn.btn-primary:hover{
+  background: #586F6B;
+  color: #fff;
+}
